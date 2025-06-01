@@ -30,7 +30,7 @@ mongoose
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // Your frontend URL
+    origin: "https://travel-tales-frontend-uh6p.onrender.com", // Your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
